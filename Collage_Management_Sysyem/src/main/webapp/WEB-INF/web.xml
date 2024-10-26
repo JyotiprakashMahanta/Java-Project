@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Collage_Management_Sysyem</display-name>
+  <servlet>
+  <servlet-name>Student_Up</servlet-name>
+  <servlet-class>S_SU</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Student_Up</servlet-name>
+  <url-pattern>/S_UP</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Student_In</servlet-name>
+  <servlet-class>S_SI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Student_In</servlet-name>
+  <url-pattern>/s_in</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Admin_Up</servlet-name>
+  <servlet-class>A_SU</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Admin_Up</servlet-name>
+  <url-pattern>/a_su</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Admin_In</servlet-name>
+  <servlet-class>A_SI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Admin_In</servlet-name>
+  <url-pattern>/a_si</url-pattern>
+  </servlet-mapping>
+</web-app>
